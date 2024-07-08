@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+   
+    <style>
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    padding: 5px 10px;
+
+}
+nav>ul {
+    display: flex;
+
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+nav li {
+    margin-right: 14px;
+    padding: 5px;
+    list-style: none;
+}
+nav li:hover{
+    background-color: lightgray;
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="abc.html">abc</a></li>
+                <li><a href="table.html">table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table> <caption>
+        men selary list
+    </caption>
+        <thead>
+            <th>serial </th>
+            <th>Name</th>
+            <th>company</th>
+            <th>salary</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>ashik</td>
+                <td>google</td>
+                <td>$4370</td>
+            </tr>   
+            <tr>
+                <td>2</td>
+                <td>rashidul</td>
+                <td>microsoft</td>
+                <td>$4900</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">total employee:2</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
